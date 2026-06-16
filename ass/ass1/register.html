@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Baladi Store</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Baladi Store - بلدي</h1>
+    <img src="images/logo.png" alt="Baladi logo" width="250">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product1.html">Grape Vine Leaves</a></li>
+            <li><a href="product2.html">Fresh Grapes</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Customer Registration</h2>
+
+        <form method="post" action="http://comp334.studentswebprojects.ritaj.ps/util/process.php">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br><br>
+
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br><br>
+
+                <label for="regemail">Email:</label><br>
+                <input type="email" id="regemail" name="regemail" placeholder="Enter your email" required><br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Address</legend>
+
+                <label for="street">Street Address:</label><br>
+                <textarea id="street" name="street" placeholder="Enter your street address" required></textarea><br><br>
+
+                <label for="city">City:</label><br>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required><br><br>
+
+                <label for="postal">Postal Code:</label><br>
+                <input type="text" id="postal" name="postal" placeholder="Enter your postal code" required><br><br>
+
+                <label for="country">Country:</label><br>
+                <select id="country" name="country" required>
+                    <option value="">Select country</option>
+                    <option value="Palestine">Palestine</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="USA">USA</option>
+                    <option value="Germany">Germany</option>
+                </select><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Account</legend>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+                <label for="confirm">Confirm Password:</label><br>
+                <input type="password" id="confirm" name="confirm" placeholder="Confirm your password" required><br><br>
+            </fieldset>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <address>
+        Baladi Store<br>
+        Palestine, Hebron<br>
+        Phone: +970-594-441605<br>
+        Email: Fares.moreb@icloud.com
+    </address>
+
+    <p><a href="contact.html">Contact Us</a></p>
+</footer>
+
+</body>
+</html>

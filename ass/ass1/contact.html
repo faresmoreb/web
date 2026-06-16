@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Baladi Store</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Baladi Store - بلدي</h1>
+    <img src="images/logo.png" alt="Baladi logo" width="250">
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product1.html">Grape Vine Leaves</a></li>
+            <li><a href="product2.html">Fresh Grapes</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Contact Information</h2>
+
+        <address>
+            Baladi Store<br>
+            Palestine, Hebron<br>
+            Phone: +970-594-441605<br>
+            Email: Fares.moreb@icloud.com
+        </address>
+    </section>
+
+    <section>
+        <h2>Send Us a Message</h2>
+
+        <form method="post" action="http://comp334.studentswebprojects.ritaj.ps/util/process.php">
+
+            <fieldset>
+                <legend>Message Information</legend>
+
+                <label for="sendername">Sender Name:</label><br>
+                <input type="text" id="sendername" name="sendername" placeholder="Name" required><br><br>
+
+                <label for="senderemail">Sender Email:</label><br>
+                <input type="email" id="senderemail" name="senderemail" placeholder="Email" required><br><br>
+
+                <label for="sendercity">Sender Location City:</label><br>
+                <input type="text" id="sendercity" name="sendercity" placeholder="City" required><br><br>
+
+                <label for="subject">Message Subject:</label><br>
+                <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+
+                <label for="message">Message Body:</label><br>
+                <textarea id="message" name="message" placeholder="Message" required></textarea><br><br>
+
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </fieldset>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+
+    <address>
+        Baladi Store<br>
+        Palestine, Hebron<br>
+        Phone: +970-594-441605<br>
+        Email: Fares.moreb@icloud.com
+    </address>
+
+    <p><a href="contact.html">Contact Us</a></p>
+</footer>
+
+</body>
+</html>
